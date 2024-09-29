@@ -4,7 +4,7 @@ variable "cidr_block"{
 
 variable "common_tags"{
     default = {
-        Project = "expense"
+        Project = "Expense"
         Environemnt = "Dev"
         Terraform = true
 
@@ -12,9 +12,9 @@ variable "common_tags"{
 }
 
 variable "project_name" {
-    type = "expense"
+    default = "expense"
 }
 
 variable "environment" {
-    type = "dev"
+    default = "dev"
 }
